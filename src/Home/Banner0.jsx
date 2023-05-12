@@ -19,10 +19,15 @@ class Banner extends React.PureComponent {
           delay={200}
           {...dataSource.textWrapper}
         >
-          <div key="title" {...dataSource.title}>
+          <div key="title" {...dataSource.title} style={{ left: 0 }}>
             {typeof dataSource.title.children === 'string' &&
             dataSource.title.children.match(isImg) ? (
-              <img src={dataSource.title.children} width="100%" alt="img" />
+              <img
+                src={dataSource.title.children}
+                width="50%"
+                alt="img"
+                style={{ marginTop: '180px' }}
+              />
             ) : (
               dataSource.title.children
             )}

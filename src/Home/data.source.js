@@ -4,7 +4,8 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children:
+      'https://gd-hbimg.huaban.com/537cd02219d3e772e0a394a87dd1caf874519fd618680-CX6a74_fw658webp',
   },
   Menu: {
     className: 'header0-menu',
@@ -102,7 +103,8 @@ export const Banner01DataSource = {
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children:
+      'https://gd-hbimg.huaban.com/7b0b171f5a83369f3e0fde204f0e1501949927c5548d-F2GMdp_fw1200webp',
   },
   content: {
     className: 'banner0-content',
